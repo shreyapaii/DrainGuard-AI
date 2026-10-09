@@ -1,0 +1,6 @@
+# Optional AI image analysis (CPU). Install AFTER requirements.txt.
+# Requires Python 3.12 for the verified pins below (3.13 also has torch 2.8.0 wheels).
+# Python 3.14 has no torch 2.8.0 wheel; use Python 3.12 for the AI feature.
+# Large download (several hundred MB).
+torch==2.8.0
+torchvision==0.23.0

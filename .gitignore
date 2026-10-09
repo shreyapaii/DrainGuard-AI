@@ -1,0 +1,33 @@
+# Python environments
+.venv/
+.venv-*/
+
+# Python and test caches
+__pycache__/
+.pytest_cache/
+.pytest-temp-core/
+.tmp/
+.tmp*/
+.temp/
+
+# Secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs and generated files
+*.log
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+.codex_test_deps/
+.tmp-acl.txt
+.pytest-temp-core/
